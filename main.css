@@ -1,11 +1,17 @@
 nav {
-	height: 20px;
-	background-color: grey;
-	position: fixed;
-	width: 100%;  
-	display: inline-table;
+	padding: 8px;
+    position: fixed;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #80808052;
 }
 a {
 	float: right;
     padding: 5px;
+}
+body {
+	margin: 0;
+}
+h1 {
+	display: inline;
 }
