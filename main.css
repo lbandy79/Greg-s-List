@@ -1,0 +1,11 @@
+nav {
+	height: 20px;
+	background-color: grey;
+	position: fixed;
+	width: 100%;  
+	display: inline-table;
+}
+a {
+	float: right;
+    padding: 5px;
+}
