@@ -1,17 +1,50 @@
-nav {
-	padding: 8px;
+.top {
+	padding: 5px;
     position: fixed;
     width: 100%;
-    font-family: sans-serif;
     background-color: #80808052;
+    height: 25px;
 }
 a {
 	float: right;
-    padding: 5px;
+    padding: 4px;
+    margin-right: 5px
 }
 body {
 	margin: 0;
+	font-family: sans-serif;
 }
 h1 {
 	display: inline;
+}
+.Search {
+    margin-left: 16%;
+    top: 64px;
+    position: relative;
+}
+image {
+	width: 25px;
+	height: 25px;
+}
+.magnifying-glass {
+	width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.bar {
+	width: 43%;
+}
+.lable {
+	display: block;
+}
+li {
+	display: table-cell;
+	text-align: center;
+	border: solid 1px;
+}
+.block {
+    top: 70px;
+    position: relative;
+    margin-left: 16%;
+    width: 200px;
 }
