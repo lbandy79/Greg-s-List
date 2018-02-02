@@ -5,10 +5,11 @@
     background-color: #80808052;
     height: 25px;
 }
-a {
+.fix {
 	float: right;
     padding: 4px;
     margin-right: 5px
+    color: purple;
 }
 body {
 	margin: 0;
@@ -41,6 +42,7 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	width: 35%;
+	margin-top: 24px;
 }
 li {
 	display: table-cell;
@@ -54,4 +56,19 @@ li {
     position: relative;
     margin-left: 16%;
     width: 100%;
+}
+.results {
+	margin-left: 16%;
+    margin-top: 121px;
+    color: grey;
+}
+span {
+	color: blue;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: purple;
 }
